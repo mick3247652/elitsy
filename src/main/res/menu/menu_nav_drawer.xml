@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+                android:id="@+id/news"
+                android:icon="@drawable/news"
+                android:title="@string/news_title" />
+        <item
+                android:id="@+id/channels"
+                android:icon="@drawable/chanel"
+                android:title="@string/channels_title" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/join_public_channel"
+            android:icon="@drawable/ic_input_white_24dp"
+            android:title="@string/join_public_channel" />
+        <item
+            android:id="@+id/create_public_channel"
+            android:icon="@drawable/chanel"
+            android:title="@string/create_public_channel" />
+        <item
+            android:id="@+id/create_private_group_chat"
+            android:icon="@drawable/ic_group_white_24dp"
+            android:title="@string/create_private_group_chat" />
+        <item
+            android:id="@+id/create_contact"
+            android:icon="@drawable/add_friend"
+            android:title="@string/add_contact" />
+
+        <item
+            android:id="@+id/create_contact_from_address_book"
+            android:icon="@drawable/a47768"
+            android:title="@string/add_contact_from_address_book" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/action_search"
+            android:icon="?attr/icon_search"
+            android:title="@string/search" />
+        <item
+            android:id="@+id/action_account"
+            android:icon="@drawable/accaunt"
+            android:title="@string/action_account" />
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@drawable/settings"
+            android:title="@string/action_settings" />
+
+    </group>
+
+</menu>
