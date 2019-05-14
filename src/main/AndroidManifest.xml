@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.ru.astron">
+    package="com.ru.ruchurch">
 
     <uses-sdk tools:overrideLibrary="net.ypresto.androidtranscoder" />
 
@@ -47,7 +47,7 @@
         android:required="false" />
 
     <application
-            android:name=".App"
+            android:name="com.ru.ruchurch.App"
         android:allowBackup="true"
         android:appCategory="social"
         android:icon="@mipmap/ic_launcher_foreground"
@@ -58,11 +58,11 @@
         tools:replace="android:label"
         tools:targetApi="o">
 
-        <activity android:name=".ui.NewsActivity"></activity>
-        <activity android:name=".ui.PhoneSelectActivity" />
-        <activity android:name=".ui.WebViewActivity" />
+        <activity android:name="com.ru.ruchurch.ui.NewsActivity"></activity>
+        <activity android:name="com.ru.ruchurch.ui.PhoneSelectActivity" />
+        <activity android:name="com.ru.ruchurch.ui.WebViewActivity" />
         <activity
-            android:name=".ui.EditAccountActivity2"
+            android:name="com.ru.ruchurch.ui.EditAccountActivity2"
             android:launchMode="singleTop"
             android:windowSoftInputMode="stateHidden|adjustResize" />
 
@@ -70,9 +70,9 @@
             android:name="com.google.android.gms.car.application"
             android:resource="@xml/automotive_app_desc" />
 
-        <service android:name=".services.XmppConnectionService" />
+        <service android:name="com.ru.ruchurch.services.XmppConnectionService" />
 
-        <receiver android:name=".services.EventReceiver">
+        <receiver android:name="com.ru.ruchurch.services.EventReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action
@@ -84,20 +84,20 @@
         </receiver>
 
         <activity
-            android:name=".ui.ShareLocationActivity"
+            android:name="com.ru.ruchurch.ui.ShareLocationActivity"
             android:label="@string/title_activity_share_location" />
         <activity
-            android:name=".ui.SearchActivity"
+            android:name="com.ru.ruchurch.ui.SearchActivity"
             android:label="@string/search_messages" />
         <activity
-            android:name=".ui.RecordingActivity"
+            android:name="com.ru.ruchurch.ui.RecordingActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/ConversationsTheme.Dialog" />
         <activity
-            android:name=".ui.ShowLocationActivity"
+            android:name="com.ru.ruchurch.ui.ShowLocationActivity"
             android:label="@string/title_activity_show_location" />
         <activity
-            android:name=".ui.ConversationActivity"
+            android:name="com.ru.ruchurch.ui.ConversationActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -106,19 +106,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.ConversationsActivity"
+            android:name="com.ru.ruchurch.ui.ConversationsActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:minWidth="300dp"
             android:minHeight="300dp"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".ui.ScanActivity"
+            android:name="com.ru.ruchurch.ui.ScanActivity"
             android:screenOrientation="portrait"
             android:theme="@style/ConversationsTheme.FullScreen"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name=".ui.UriHandlerActivity"
+            android:name="com.ru.ruchurch.ui.UriHandlerActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -135,7 +135,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data android:scheme="https" />
-                <data android:host="astron.online" />
+                <data android:host="ruchurch.icu" />
                 <data android:pathPrefix="/i/" />
                 <data android:pathPrefix="/j/" />
             </intent-filter>
@@ -149,7 +149,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.StartConversationActivity"
+            android:name="com.ru.ruchurch.ui.StartConversationActivity"
             android:label="@string/title_activity_start_conversation"
             android:launchMode="singleTop">
             <intent-filter>
@@ -157,7 +157,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.SettingsActivity"
+            android:name="com.ru.ruchurch.ui.SettingsActivity"
             android:label="@string/title_activity_settings">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -166,16 +166,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.ChooseContactActivity"
+            android:name="com.ru.ruchurch.ui.ChooseContactActivity"
             android:label="@string/title_activity_choose_contact" />
         <activity
-            android:name=".ui.BlocklistActivity"
+            android:name="com.ru.ruchurch.ui.BlocklistActivity"
             android:label="@string/title_activity_block_list" />
         <activity
-            android:name=".ui.ChangePasswordActivity"
+            android:name="com.ru.ruchurch.ui.ChangePasswordActivity"
             android:label="@string/change_password_on_server" />
         <activity
-            android:name=".ui.ChooseAccountForProfilePictureActivity"
+            android:name="com.ru.ruchurch.ui.ChooseAccountForProfilePictureActivity"
             android:enabled="false"
             android:label="@string/choose_account">
             <intent-filter android:label="@string/set_profile_picture">
@@ -187,29 +187,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.ShareViaAccountActivity"
+            android:name="com.ru.ruchurch.ui.ShareViaAccountActivity"
             android:label="@string/title_activity_share_via_account"
             android:launchMode="singleTop" />
         <activity
-            android:name=".ui.EditAccountActivity"
+            android:name="com.ru.ruchurch.ui.EditAccountActivity"
             android:launchMode="singleTop"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
-            android:name=".ui.ConferenceDetailsActivity"
+            android:name="com.ru.ruchurch.ui.ConferenceDetailsActivity"
             android:label="@string/action_muc_details"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".ui.ContactDetailsActivity"
+            android:name="com.ru.ruchurch.ui.ContactDetailsActivity"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".ui.PublishProfilePictureActivity"
+            android:name="com.ru.ruchurch.ui.PublishProfilePictureActivity"
             android:label="@string/mgmt_account_publish_avatar"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".ui.PublishGroupChatProfilePictureActivity"
+            android:name="com.ru.ruchurch.ui.PublishGroupChatProfilePictureActivity"
             android:label="@string/group_chat_avatar" />
         <activity
-            android:name=".ui.ShareWithActivity"
+            android:name="com.ru.ruchurch.ui.ShareWithActivity"
             android:label="@string/app_name"
             android:launchMode="singleTop">
             <intent-filter>
@@ -234,15 +234,15 @@
                 android:value=".services.ContactChooserTargetService" />
         </activity>
         <activity
-            android:name=".ui.TrustKeysActivity"
+            android:name="com.ru.ruchurch.ui.TrustKeysActivity"
             android:label="@string/trust_omemo_fingerprints"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name=".ui.AboutActivity"
-            android:parentActivityName=".ui.SettingsActivity">
+            android:name="com.ru.ruchurch.ui.AboutActivity"
+            android:parentActivityName="com.ru.ruchurch.ui.SettingsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.ru.astron.ui.SettingsActivity" />
+                android:value="com.ru.ruchurch.ui.SettingsActivity" />
 
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -253,15 +253,15 @@
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
-        <activity android:name=".ui.MemorizingActivity" />
+        <activity android:name="com.ru.ruchurch.ui.MemorizingActivity" />
         <activity
-            android:name=".ui.MediaBrowserActivity"
+            android:name="com.ru.ruchurch.ui.MediaBrowserActivity"
             android:label="@string/media_browser" />
 
-        <service android:name=".services.ExportBackupService" />
-        <service android:name=".services.ImportBackupService" />
+        <service android:name="com.ru.ruchurch.services.ExportBackupService" />
+        <service android:name="com.ru.ruchurch.services.ImportBackupService" />
         <service
-            android:name=".services.ContactChooserTargetService"
+            android:name="com.ru.ruchurch.services.ContactChooserTargetService"
             android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
             <intent-filter>
                 <action android:name="android.service.chooser.ChooserTargetService" />
@@ -278,20 +278,20 @@
                 android:resource="@xml/file_paths" />
         </provider>
         <provider
-            android:name=".services.BarcodeProvider"
+            android:name="com.ru.ruchurch.services.BarcodeProvider"
             android:authorities="${applicationId}.barcodes"
             android:exported="false"
             android:grantUriPermissions="true" />
 
         <activity
-            android:name=".ui.ShortcutActivity"
+            android:name="com.ru.ruchurch.ui.ShortcutActivity"
             android:label="@string/contactPhone">
             <intent-filter>
                 <action android:name="android.intent.action.CREATE_SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.MucUsersActivity"
+            android:name="com.ru.ruchurch.ui.MucUsersActivity"
             android:label="@string/group_chat_members" />
     </application>
 

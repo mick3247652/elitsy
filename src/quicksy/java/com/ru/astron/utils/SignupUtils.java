@@ -1,4 +1,4 @@
-package com.ru.astron.utils;
+package com.ru.ruchurch.utils;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,13 +6,13 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.ru.astron.Config;
-import com.ru.astron.entities.Account;
-import com.ru.astron.ui.ConversationsActivity;
-import com.ru.astron.ui.EnterPhoneNumberActivity;
-import com.ru.astron.ui.StartConversationActivity;
-import com.ru.astron.ui.TosActivity;
-import com.ru.astron.ui.VerifyActivity;
+import com.ru.ruchurch.Config;
+import com.ru.ruchurch.entities.Account;
+import com.ru.ruchurch.ui.ConversationsActivity;
+import com.ru.ruchurch.ui.EnterPhoneNumberActivity;
+import com.ru.ruchurch.ui.StartConversationActivity;
+import com.ru.ruchurch.ui.TosActivity;
+import com.ru.ruchurch.ui.VerifyActivity;
 
 public class SignupUtils {
 

@@ -1,4 +1,4 @@
-package com.ru.astron.ui.util;
+package com.ru.ruchurch.ui.util;
 
 import android.text.Editable;
 import android.text.TextWatcher;

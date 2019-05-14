@@ -528,8 +528,8 @@
     <string name="share_uri_with">Share URL…</string>
     <string name="welcome_header" translatable="false">Join the Chat</string>
     <string name="welcome_text">XMPP is a provider independent instant messaging network. You can use this client with what ever XMPP server you choose.\nHowever for your convenience we made it easy to create an account on conversations.im¹; a provider specially suited for the use with Conversations.</string>
-    <string name="welcome_header_quicksy" translatable="false">Welcome to Astron</string>
-    <string name="welcome_text_quicksy"><![CDATA[Messaging application. Instant message delivery.<br><br>You sign up with your phone number and Astron will automatically, based on the phone numbers in your address book, suggest possible contacts to you.]]></string>
+    <string name="welcome_header_quicksy" translatable="false">Welcome to Kolokol</string>
+    <string name="welcome_text_quicksy"><![CDATA[Messaging application. Instant message delivery.<br><br>You sign up with your phone number and Kolokol will automatically, based on the phone numbers in your address book, suggest possible contacts to you.]]></string>
     <string name="agree_and_continue">Continue</string>
     <string name="magic_create_text">We will guide you through the process of creating an account on conversations.im.¹\nWhen picking conversations.im as a provider you will be able to communicate with users of other providers by giving them your full XMPP address.</string>
     <string name="your_full_jid_will_be">Your full XMPP address will be: %s</string>
@@ -770,7 +770,7 @@
     <string name="choose_a_country">Choose a country</string>
     <string name="phone_number">phone number</string>
     <string name="verify_your_phone_number">Verify your phone number</string>
-    <string name="enter_country_code_and_phone_number">Astron will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:</string>
+    <string name="enter_country_code_and_phone_number">Kolokol will send an SMS message (carrier charges may apply) to verify your phone number. Enter your country code and phone number:</string>
     <string name="we_will_be_verifying"><![CDATA[We will be verifying the phone number<br/><br/><b>%s</b><br/><br/>Is this OK, or would you like to edit the number?]]></string>
     <string name="not_a_valid_phone_number">%s is not a valid phone number.</string>
     <string name="please_enter_your_phone_number">Please enter your phone number.</string>

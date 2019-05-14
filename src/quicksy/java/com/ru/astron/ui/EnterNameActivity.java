@@ -1,4 +1,4 @@
-package com.ru.astron.ui;
+package com.ru.ruchurch.ui;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
@@ -8,11 +8,11 @@ import android.view.View;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.ru.astron.R;
-import com.ru.astron.databinding.ActivityEnterNameBinding;
-import com.ru.astron.entities.Account;
-import com.ru.astron.services.XmppConnectionService;
-import com.ru.astron.utils.AccountUtils;
+import com.ru.ruchurch.R;
+import com.ru.ruchurch.databinding.ActivityEnterNameBinding;
+import com.ru.ruchurch.entities.Account;
+import com.ru.ruchurch.services.XmppConnectionService;
+import com.ru.ruchurch.utils.AccountUtils;
 
 public class EnterNameActivity extends XmppActivity implements XmppConnectionService.OnAccountUpdate {
 

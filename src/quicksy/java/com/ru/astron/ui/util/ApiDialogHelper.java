@@ -1,4 +1,4 @@
-package com.ru.astron.ui.util;
+package com.ru.ruchurch.ui.util;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -9,9 +9,9 @@ import android.net.Uri;
 import android.os.SystemClock;
 import android.support.annotation.StringRes;
 
-import com.ru.astron.R;
-import com.ru.astron.services.QuickConversationsService;
-import com.ru.astron.utils.TimeframeUtils;
+import com.ru.ruchurch.R;
+import com.ru.ruchurch.services.QuickConversationsService;
+import com.ru.ruchurch.utils.TimeframeUtils;
 
 public class ApiDialogHelper {
 

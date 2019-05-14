@@ -26,7 +26,7 @@
             app:errorTextAppearance="@style/TextAppearance.Conversations.Design.Error"
             app:hintTextAppearance="@style/TextAppearance.Conversations.Design.Hint">
 
-            <com.ru.astron.ui.widget.EmojiWrapperEditText
+            <com.ru.ruchurch.ui.widget.EmojiWrapperEditText
                 android:id="@+id/group_chat_name"
                 style="@style/Widget.Conversations.EditText"
                 android:layout_width="match_parent"

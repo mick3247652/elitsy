@@ -1,4 +1,4 @@
-package com.ru.astron.utils;
+package com.ru.ruchurch.utils;
 
 import android.content.Context;
 import android.telephony.TelephonyManager;

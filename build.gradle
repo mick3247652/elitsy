@@ -104,10 +104,10 @@ android {
         versionCode 21
         versionName "1.1.0"
         archivesBaseName += "-$versionName"
-        applicationId "com.ru.astron"
+        applicationId "com.ru.ruchurch"
         resValue "string", "applicationId", applicationId
-        resValue "string", "app_name", "Astron"
-        buildConfigField "String", "LOGTAG", "\"astron\""
+        resValue "string", "app_name", "Колокол"
+        buildConfigField "String", "LOGTAG", "\"ruchurch\""
     }
 
     dataBinding {
@@ -133,10 +133,10 @@ android {
         quicksy {
             dimension "mode"
             versionName "1.1.0"
-            applicationId = "com.ru.astron"
-            resValue "string", "app_name", "Astron"
+            applicationId = "com.ru.ruchurch"
+            resValue "string", "app_name", "Колокол"
             resValue "string", "applicationId", applicationId
-            buildConfigField "String", "LOGTAG", "\"quicksy\""
+            buildConfigField "String", "LOGTAG", "\"ruchurch\""
         }
 
         conversations {

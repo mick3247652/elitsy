@@ -102,13 +102,13 @@
                 android:key="enable_quiet_hours"
                 android:summary="@string/pref_quiet_hours_summary"
                 android:title="@string/title_pref_enable_quiet_hours" />
-            <com.ru.astron.ui.TimePreference
+            <com.ru.ruchurch.ui.TimePreference
                 android:dependency="enable_quiet_hours"
                 android:key="quiet_hours_start"
                 android:negativeButtonText="@string/cancel"
                 android:positiveButtonText="@string/set"
                 android:title="@string/title_pref_quiet_hours_start_time" />
-            <com.ru.astron.ui.TimePreference
+            <com.ru.ruchurch.ui.TimePreference
                 android:dependency="enable_quiet_hours"
                 android:key="quiet_hours_end"
                 android:negativeButtonText="@string/cancel"
@@ -206,7 +206,7 @@
             android:visibility="gone">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:targetClass="com.app.astron.ui.SettingsActivity"
+                android:targetClass="com.app.ruchurch.ui.SettingsActivity"
                 android:targetPackage="@string/applicationId">
                 <extra
                     android:name="page"
@@ -351,5 +351,5 @@
             android:title="@string/pref_never_send_crash"
             android:visibility="gone" />-->
     </PreferenceCategory>
-    <com.ru.astron.ui.AboutPreference />
+    <com.ru.ruchurch.ui.AboutPreference/>
 </PreferenceScreen>

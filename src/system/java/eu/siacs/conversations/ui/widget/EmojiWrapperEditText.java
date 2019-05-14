@@ -1,4 +1,4 @@
-package com.ru.astron.ui.widget;
+package com.ru.ruchurch.ui.widget;
 
 import android.content.Context;
 import android.support.v7.widget.AppCompatEditText;

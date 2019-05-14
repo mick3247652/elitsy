@@ -71,7 +71,7 @@
 
                             </android.support.design.widget.TextInputLayout>
 
-                            <com.ru.astron.ui.widget.TextInputEditText
+                            <com.ru.ruchurch.ui.widget.TextInputEditText
                                 android:id="@+id/account_jid"
                                 style="@style/Widget.Conversations.EditText"
                                 android:layout_width="match_parent"
@@ -99,7 +99,7 @@
                                 app:passwordToggleEnabled="true"
                                 app:passwordToggleTint="?android:textColorSecondary">
 
-                                <com.ru.astron.ui.widget.TextInputEditText
+                                <com.ru.ruchurch.ui.widget.TextInputEditText
                                     android:id="@+id/account_password"
                                     style="@style/Widget.Conversations.EditText"
                                     android:layout_width="match_parent"

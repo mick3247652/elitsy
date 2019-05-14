@@ -1,4 +1,4 @@
-package com.ru.astron.ui;
+package com.ru.ruchurch.ui;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -14,9 +14,9 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import com.ru.astron.R;
-import com.ru.astron.entities.Account;
-import com.ru.astron.utils.XmppUri;
+import com.ru.ruchurch.R;
+import com.ru.ruchurch.entities.Account;
+import com.ru.ruchurch.utils.XmppUri;
 
 public class TosActivity extends XmppActivity {
 

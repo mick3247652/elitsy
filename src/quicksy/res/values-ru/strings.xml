@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="crash_report_title">Астрон has crashed</string>
-    <string name="crash_report_message">By sending in stack traces you are helping the ongoing development of Астрон\n<b>Warning:</b> This will use your XMPP account to send the stack trace to the developer.</string>
-    <string name="openkeychain_required_long">Астрон utilizes a third party app called <b>OpenKeychain</b> to encrypt and decrypt messages and to manage your public keys.\n\nOpenKeychain is licensed under GPLv3 and available on F-Droid and Google Play.\n\n<small>(Please restart Астрон afterwards.)</small></string>
-    <string name="contact_has_no_pgp_key">Астрон is unable to encrypt your messages because your contactPhone is not announcing his or hers public key.\n\n<small>Please ask your contactPhone to setup OpenPGP.</small></string>
-    <string name="contacts_have_no_pgp_keys">Астрон is unable to encrypt your messages because your contacts are not announcing their public key.\n\n<small>Please ask your contacts to setup OpenPGP.</small></string>
-    <string name="pref_notification_grace_period_summary">The length of time Астрон keeps quiet after seeing activity on another device</string>
-    <string name="pref_never_send_crash_summary">By sending in stack traces you are helping the ongoing development of Астрон</string>
-    <string name="no_storage_permission">Астрон needs access to external storage</string>
-    <string name="no_camera_permission">Астрон needs access to the camera</string>
+    <string name="crash_report_title">Колокол has crashed</string>
+    <string name="crash_report_message">By sending in stack traces you are helping the ongoing development of Колокол\n<b>Warning:</b> This will use your XMPP account to send the stack trace to the developer.</string>
+    <string name="openkeychain_required_long">Колокол utilizes a third party app called <b>OpenKeychain</b> to encrypt and decrypt messages and to manage your public keys.\n\nOpenKeychain is licensed under GPLv3 and available on F-Droid and Google Play.\n\n<small>(Please restart Колокол afterwards.)</small></string>
+    <string name="contact_has_no_pgp_key">Колокол is unable to encrypt your messages because your contactPhone is not announcing his or hers public key.\n\n<small>Please ask your contactPhone to setup OpenPGP.</small></string>
+    <string name="contacts_have_no_pgp_keys">Колокол is unable to encrypt your messages because your contacts are not announcing their public key.\n\n<small>Please ask your contacts to setup OpenPGP.</small></string>
+    <string name="pref_notification_grace_period_summary">The length of time Колокол keeps quiet after seeing activity on another device</string>
+    <string name="pref_never_send_crash_summary">By sending in stack traces you are helping the ongoing development of Колокол</string>
+    <string name="no_storage_permission">Колокол needs access to external storage</string>
+    <string name="no_camera_permission">Колокол needs access to the camera</string>
     <string name="battery_optimizations_enabled_explained">Ваше устройство использует оптимизацию энергопотребления.\nРекомендуется его отключить.</string>
     <string name="battery_optimizations_enabled_dialog">Ваше устройство использует оптимизацию энергопотребления.\nСейчас появится предложение его отключить.</string>
-    <string name="pref_broadcast_last_activity_summary">Извещать контакты когда вы используете Астрон</string>
-    <string name="data_saver_enabled_explained">Your operating system is restricting Астрон from accessing the Internet when in background. To receive notifications of new messages you should allow Астрон unrestricted access when Data saver is on.\nАстрон will still make an effort to save data when possible.</string>
-    <string name="device_does_not_support_data_saver">Your device does not support disabling Data saver for Астрон.</string>
-    <string name="huawei_protected_apps_summary">To keep receiving notifications, even when the screen is turned off, you need to add Астрон to the list of protected apps.</string>
+    <string name="pref_broadcast_last_activity_summary">Извещать контакты когда вы используете Колокол</string>
+    <string name="data_saver_enabled_explained">Your operating system is restricting Колокол from accessing the Internet when in background. To receive notifications of new messages you should allow Колокол unrestricted access when Data saver is on.\nКолокол will still make an effort to save data when possible.</string>
+    <string name="device_does_not_support_data_saver">Your device does not support disabling Data saver for Колокол.</string>
+    <string name="huawei_protected_apps_summary">To keep receiving notifications, even when the screen is turned off, you need to add Колокол to the list of protected apps.</string>
     <string name="error_trustkey_general">Не удается отправить секретное сообщение %1$s. Это может быть связано с тем, что контакт не использует режим Секретно.</string>
-    <string name="no_microphone_permission">Астрон needs access to the microphone</string>
-    <string name="foreground_service_channel_description">This notification category is used to display a permanent notification indicating that Астрон is running.</string>
-    <string name="set_profile_picture">Астрон profile picture</string>
+    <string name="no_microphone_permission">Колокол needs access to the microphone</string>
+    <string name="foreground_service_channel_description">This notification category is used to display a permanent notification indicating that Колокол is running.</string>
+    <string name="set_profile_picture">Колокол profile picture</string>
 </resources>

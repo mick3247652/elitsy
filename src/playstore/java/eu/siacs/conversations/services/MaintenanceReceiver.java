@@ -1,4 +1,4 @@
-package com.ru.astron.services;
+package com.ru.ruchurch.services;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -10,8 +10,8 @@ import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.io.IOException;
 
-import com.ru.astron.Config;
-import com.ru.astron.utils.Compatibility;
+import com.ru.ruchurch.Config;
+import com.ru.ruchurch.utils.Compatibility;
 
 public class MaintenanceReceiver extends BroadcastReceiver {
 	@Override

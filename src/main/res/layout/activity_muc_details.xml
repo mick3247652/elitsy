@@ -105,7 +105,7 @@
                                             app:errorTextAppearance="@style/TextAppearance.Conversations.Design.Error"
                                             app:hintTextAppearance="@style/TextAppearance.Conversations.Design.Hint">
 
-                                            <com.ru.astron.ui.widget.EmojiWrapperEditText
+                                            <com.ru.ruchurch.ui.widget.EmojiWrapperEditText
                                                 android:id="@+id/muc_edit_title"
                                                 android:layout_width="match_parent"
                                                 android:layout_height="wrap_content"
@@ -119,7 +119,7 @@
                                             app:errorTextAppearance="@style/TextAppearance.Conversations.Design.Error"
                                             app:hintTextAppearance="@style/TextAppearance.Conversations.Design.Hint">
 
-                                            <com.ru.astron.ui.widget.EmojiWrapperEditText
+                                            <com.ru.ruchurch.ui.widget.EmojiWrapperEditText
                                                 android:id="@+id/muc_edit_subject"
                                                 android:layout_width="match_parent"
                                                 android:layout_height="wrap_content"

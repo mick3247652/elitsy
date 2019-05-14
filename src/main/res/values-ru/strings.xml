@@ -60,8 +60,8 @@
   <string name="unblock">Разблокировать</string>
   <string name="save">Сохранить</string>
   <string name="ok">ОК</string>
-  <string name="crash_report_title">Astron был неожиданно остановлен</string>
-  <string name="crash_report_message">Отправляя отчёты об ошибках, вы помогаете исправить и улучшить Astron\n<b>Предупреждение:</b> Отчёт будет отправлен разработчику с вашего аккаунта. </string>
+  <string name="crash_report_title">Колокол был неожиданно остановлен</string>
+  <string name="crash_report_message">Отправляя отчёты об ошибках, вы помогаете исправить и улучшить Колокол\n<b>Предупреждение:</b> Отчёт будет отправлен разработчику с вашего аккаунта. </string>
   <string name="send_now">Отправить сейчас</string>
   <string name="send_never">Больше не спрашивать</string>
   <string name="problem_connecting_to_account">Не удалось подключиться к аккаунту</string>
@@ -90,16 +90,16 @@
   <string name="send_unencrypted">Отправить открытоe</string>
   <string name="decryption_failed">Расшифровка не удалась. Вероятно, что у вас нет секретного ключа.</string>
   <string name="openkeychain_required">Установите OpenKeychain</string>
-  <string name="openkeychain_required_long">Astron использует стороннее приложение под названием <b>OpenKeychain</b> для шифрования и расшифрования сообщений и управления открытыми ключами.\nПрограмма OpenKeychain распространяется под лицензией GPLv3 и доступна для загрузки через F-Droid или Google Play.\n\n<small>(Потребуется перезапуск Astron после установки.)</small></string>
+  <string name="openkeychain_required_long">Колокол использует стороннее приложение под названием <b>OpenKeychain</b> для шифрования и расшифрования сообщений и управления открытыми ключами.\nПрограмма OpenKeychain распространяется под лицензией GPLv3 и доступна для загрузки через F-Droid или Google Play.\n\n<small>(Потребуется перезапуск Колокол после установки.)</small></string>
   <string name="restart">Перезапуск</string>
   <string name="install">Установка</string>
   <string name="openkeychain_not_installed">Пожалуйста, установите OpenKeychain</string>
   <string name="offering">предложение…</string>
   <string name="waiting">ожидание…</string>
   <string name="no_pgp_key">Нет секретного ключа</string>
-  <string name="contact_has_no_pgp_key">Astron не может зашифровать сообщение, потому что удалённый пользователь не анонсирует свой открытый ключ.\n\n<small>Пожалуйста, попросите удалённого пользователя установить OpenPGP.</small></string>
+  <string name="contact_has_no_pgp_key">Колокол не может зашифровать сообщение, потому что удалённый пользователь не анонсирует свой открытый ключ.\n\n<small>Пожалуйста, попросите удалённого пользователя установить OpenPGP.</small></string>
   <string name="no_pgp_keys">Нет секретных ключей</string>
-  <string name="contacts_have_no_pgp_keys">Astron не может зашифровать сообщения, потому что удалённые пользователи не анонсируют свои открытые ключи.\n\n<small>Пожалуйста, попросите удалённых пользователей установить OpenPGP.</small></string>
+  <string name="contacts_have_no_pgp_keys">Колокол не может зашифровать сообщения, потому что удалённые пользователи не анонсируют свои открытые ключи.\n\n<small>Пожалуйста, попросите удалённых пользователей установить OpenPGP.</small></string>
   <string name="pref_general">Общие</string>
   <string name="pref_accept_files">Файлы</string>
   <string name="pref_accept_files_summary">Автоматически принимать файлы</string>
@@ -112,10 +112,10 @@
   <string name="pref_sound">Звук уведомления</string>
   <string name="pref_sound_summary">Звук при поступлении новых сообщений</string>
   <string name="pref_notification_grace_period">Грейс-период</string>
-  <string name="pref_notification_grace_period_summary">Промежуток времени, в течение которого Astron хранит молчание при обнаружении активности на другом устройстве</string>
+  <string name="pref_notification_grace_period_summary">Промежуток времени, в течение которого Колокол хранит молчание при обнаружении активности на другом устройстве</string>
   <string name="pref_advanced_options">Дополнительно</string>
   <string name="pref_never_send_crash">Не отправлять отчёты об ошибках</string>
-  <string name="pref_never_send_crash_summary">Отправляя отчёты об ошибках, вы помогаете исправить и улучшить Astron</string>
+  <string name="pref_never_send_crash_summary">Отправляя отчёты об ошибках, вы помогаете исправить и улучшить Колокол</string>
   <string name="pref_confirm_messages">Видимость</string>
   <string name="pref_confirm_messages_summary">Позволяет вашим контактам видеть когда вы получили и прочитали их сообщения</string>
   <string name="pref_ui_options">Интерфейс</string>
@@ -497,7 +497,7 @@
   <string name="gp_medium">Средний</string>
   <string name="gp_long">Длинный</string>
   <string name="pref_broadcast_last_activity">Оповещение о присутствии</string>
-  <string name="pref_broadcast_last_activity_summary">Извещать контакты когда вы используете Astron</string>
+  <string name="pref_broadcast_last_activity_summary">Извещать контакты когда вы используете Колокол</string>
   <string name="pref_privacy">Приватность</string>
   <string name="pref_theme_options">Тема</string>
   <string name="pref_theme_options_summary">Выбрать цветовую палитру</string>
@@ -528,8 +528,8 @@
   <string name="show_error_message">Текст ошибки</string>
   <string name="error_message">Текст ошибки</string>
   <string name="data_saver_enabled">Режим экономии трафика включен</string>
-  <string name="data_saver_enabled_explained">Ваша операционная система не позволяет Astron получать доступ в Интернет в фоновом режиме. Для получения уведомлений вы должны разрешить Astron неограниченный доступ когда режим экономии трафика включен.\nAstron постарается сохранить трафик когда это возможно.</string>
-  <string name="device_does_not_support_data_saver">Ваше устройство не поддерживает отключение режима экономии трафика для Astron.</string>
+  <string name="data_saver_enabled_explained">Ваша операционная система не позволяет Колокол получать доступ в Интернет в фоновом режиме. Для получения уведомлений вы должны разрешить Колокол неограниченный доступ когда режим экономии трафика включен.\nКолокол постарается сохранить трафик когда это возможно.</string>
+  <string name="device_does_not_support_data_saver">Ваше устройство не поддерживает отключение режима экономии трафика для Колокол.</string>
   <string name="error_unable_to_create_temporary_file">Не удалось создать временный файл</string>
   <string name="this_device_has_been_verified">Это устройство было подтверждено</string>
   <string name="copy_fingerprint">Копировать секретный ключ</string>
@@ -688,11 +688,11 @@
   <string name="not_encrypted_for_this_device">Сообщение не было засекречено на вашем устройстве</string>
   <string name="omemo_decryption_failed">Ошибка секретности сообщения</string>
   <string name="attach">Прикрепить</string>
-    <string name="welcome_header_quicksy" translatable="false">Добро пожаловать в Астрон</string>
-    <string name="welcome_text_quicksy"><![CDATA[Приложение для обмена сообщениями. Мессенджер использует сквозное шифрование.<br><br>Вы указываете свой номер телефона и Астрон автоматически, на основе телефонных номеров в адресной книге, предложит вам возможные контакты.]]></string>
+    <string name="welcome_header_quicksy" translatable="false">Добро пожаловать в Колокол</string>
+    <string name="welcome_text_quicksy"><![CDATA[Приложение для обмена сообщениями. Мессенджер использует сквозное шифрование.<br><br>Вы указываете свой номер телефона и Колокол автоматически, на основе телефонных номеров в адресной книге, предложит вам возможные контакты.]]></string>
     <string name="agree_and_continue">Далее</string>
     <string name="verify_your_phone_number">Проверьте свой номер телефона</string>
-    <string name="enter_country_code_and_phone_number">Астрон отправит СМС-сообщение (может взиматься плата за доставку) для подтверждения вашего номера телефона. Введите код страны и номер телефона:</string>
+    <string name="enter_country_code_and_phone_number">Колокол отправит СМС-сообщение (может взиматься плата за доставку) для подтверждения вашего номера телефона. Введите код страны и номер телефона:</string>
     <string name="phone_number">номер телефона</string>
   <string name="we_will_be_verifying"><![CDATA[Проверьте номер телефона<br/><br/><b>%s</b><br/><br/>Правильно, или вы хотите изменить номер?]]></string>
   <string name="back">назад</string>

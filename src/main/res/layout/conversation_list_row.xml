@@ -112,7 +112,7 @@
                                 android:src="?attr/icon_notifications"
                                 android:visibility="visible" />
 
-                            <com.ru.astron.ui.widget.UnreadCountCustomView
+                            <com.ru.ruchurch.ui.widget.UnreadCountCustomView
                                 android:id="@+id/unread_count"
                                 android:layout_width="?attr/IconSize"
                                 android:layout_height="?attr/IconSize"

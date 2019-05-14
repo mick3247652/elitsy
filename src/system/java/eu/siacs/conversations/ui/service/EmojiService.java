@@ -1,4 +1,4 @@
-package com.ru.astron.ui.service;
+package com.ru.ruchurch.ui.service;
 
 import android.content.Context;
 

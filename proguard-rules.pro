@@ -1,6 +1,6 @@
 -dontobfuscate
 
--keep class com.app.astron.**
+-keep class com.app.ruchurch.**
 
 -keep class org.whispersystems.**
 

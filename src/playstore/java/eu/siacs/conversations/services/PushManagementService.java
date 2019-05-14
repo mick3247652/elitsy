@@ -1,4 +1,4 @@
-package com.ru.astron.services;
+package com.ru.ruchurch.services;
 
 import android.util.Log;
 
@@ -6,15 +6,15 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.firebase.iid.FirebaseInstanceId;
 
-import com.ru.astron.Config;
-import com.ru.astron.R;
-import com.ru.astron.entities.Account;
-import com.ru.astron.utils.PhoneHelper;
-import com.ru.astron.xml.Element;
-import com.ru.astron.xml.Namespace;
-import com.ru.astron.xmpp.XmppConnection;
-import com.ru.astron.xmpp.forms.Data;
-import com.ru.astron.xmpp.stanzas.IqPacket;
+import com.ru.ruchurch.Config;
+import com.ru.ruchurch.R;
+import com.ru.ruchurch.entities.Account;
+import com.ru.ruchurch.utils.PhoneHelper;
+import com.ru.ruchurch.xml.Element;
+import com.ru.ruchurch.xml.Namespace;
+import com.ru.ruchurch.xmpp.XmppConnection;
+import com.ru.ruchurch.xmpp.forms.Data;
+import com.ru.ruchurch.xmpp.stanzas.IqPacket;
 import rocks.xmpp.addr.Jid;
 
 public class PushManagementService {

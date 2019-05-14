@@ -1,4 +1,4 @@
-package com.ru.astron.ui;
+package com.ru.ruchurch.ui;
 
 import android.content.Context;
 import android.content.Intent;
@@ -21,10 +21,10 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
 
-import com.ru.astron.R;
-import com.ru.astron.databinding.ActivityChooseCountryBinding;
-import com.ru.astron.ui.adapter.CountryAdapter;
-import com.ru.astron.utils.PhoneNumberUtilWrapper;
+import com.ru.ruchurch.R;
+import com.ru.ruchurch.databinding.ActivityChooseCountryBinding;
+import com.ru.ruchurch.ui.adapter.CountryAdapter;
+import com.ru.ruchurch.utils.PhoneNumberUtilWrapper;
 
 public class ChooseCountryActivity extends ActionBarActivity implements CountryAdapter.OnCountryClicked {
 

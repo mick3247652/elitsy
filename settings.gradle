@@ -1,2 +1,2 @@
 include ':libs:xmpp-addr'
-rootProject.name = 'astron'
+rootProject.name = 'ruchurch'

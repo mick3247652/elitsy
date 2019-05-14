@@ -1,4 +1,4 @@
-package com.ru.astron.ui;
+package com.ru.ruchurch.ui;
 
 import android.app.AlertDialog;
 import android.content.ClipData;
@@ -17,15 +17,15 @@ import android.view.View;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.ru.astron.R;
-import com.ru.astron.databinding.ActivityVerifyBinding;
-import com.ru.astron.entities.Account;
-import com.ru.astron.services.QuickConversationsService;
-import com.ru.astron.ui.util.ApiDialogHelper;
-import com.ru.astron.ui.util.PinEntryWrapper;
-import com.ru.astron.utils.AccountUtils;
-import com.ru.astron.utils.PhoneNumberUtilWrapper;
-import com.ru.astron.utils.TimeframeUtils;
+import com.ru.ruchurch.R;
+import com.ru.ruchurch.databinding.ActivityVerifyBinding;
+import com.ru.ruchurch.entities.Account;
+import com.ru.ruchurch.services.QuickConversationsService;
+import com.ru.ruchurch.ui.util.ApiDialogHelper;
+import com.ru.ruchurch.ui.util.PinEntryWrapper;
+import com.ru.ruchurch.utils.AccountUtils;
+import com.ru.ruchurch.utils.PhoneNumberUtilWrapper;
+import com.ru.ruchurch.utils.TimeframeUtils;
 import io.michaelrocks.libphonenumber.android.NumberParseException;
 
 import static android.content.ClipDescription.MIMETYPE_TEXT_PLAIN;

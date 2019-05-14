@@ -1,4 +1,4 @@
-package com.ru.astron.ui;
+package com.ru.ruchurch.ui;
 
 import android.app.AlertDialog;
 import android.content.Intent;
@@ -16,16 +16,16 @@ import android.widget.EditText;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.ru.astron.Config;
-import com.ru.astron.R;
-import com.ru.astron.databinding.ActivityEnterNumberBinding;
-import com.ru.astron.entities.Account;
-import com.ru.astron.services.QuickConversationsService;
-import com.ru.astron.ui.drawable.TextDrawable;
-import com.ru.astron.ui.util.ApiDialogHelper;
-import com.ru.astron.utils.AccountUtils;
-import com.ru.astron.utils.LocationProvider;
-import com.ru.astron.utils.PhoneNumberUtilWrapper;
+import com.ru.ruchurch.Config;
+import com.ru.ruchurch.R;
+import com.ru.ruchurch.databinding.ActivityEnterNumberBinding;
+import com.ru.ruchurch.entities.Account;
+import com.ru.ruchurch.services.QuickConversationsService;
+import com.ru.ruchurch.ui.drawable.TextDrawable;
+import com.ru.ruchurch.ui.util.ApiDialogHelper;
+import com.ru.ruchurch.utils.AccountUtils;
+import com.ru.ruchurch.utils.LocationProvider;
+import com.ru.ruchurch.utils.PhoneNumberUtilWrapper;
 import io.michaelrocks.libphonenumber.android.NumberParseException;
 import io.michaelrocks.libphonenumber.android.PhoneNumberUtil;
 import io.michaelrocks.libphonenumber.android.Phonenumber;
