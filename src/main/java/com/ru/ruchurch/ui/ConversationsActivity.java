@@ -450,11 +450,16 @@ public class ConversationsActivity extends XmppActivity implements AddChannelLis
         String name = mAccount.getDisplayName();
         if (phone != null) phone.setText(ParsePhoneNumber.parse(mAccount.getJid().getLocal()));
         if (name.isEmpty()) {
-            account_name.setText(ParsePhoneNumber.parse(mAccount.getJid().getLocal()));
-            phone.setVisibility(View.GONE);
+            if(account_name != null && phone != null) {
+                account_name.setText(ParsePhoneNumber.parse(mAccount.getJid().getLocal()));
+                phone.setVisibility(View.GONE);
+            }
         } else {
-            account_name.setText(name);
-            phone.setVisibility(View.VISIBLE);
+            if(account_name != null && phone != null){
+                account_name.setText(name);
+                phone.setVisibility(View.VISIBLE);
+            }
+
         }
 
         nv.setNavigationItemSelectedListener(menuItem -> {
